@@ -33,7 +33,6 @@ setup(
         "mohawk==0.3.4",
         "more-itertools==2.2",
         "ndg-httpsclient==0.4.2",
-        "ordereddict==1.2",
         "PGPy==0.4.0",
         "pyasn1==0.1.9",
         "pycparser==2.13",
