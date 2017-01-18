@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="funsize",
-    version="0.67",
+    version="0.68",
     description="Funsize Scheduler",
     author="Mozilla Release Engineering",
     packages=["funsize"],
@@ -36,7 +36,7 @@ setup(
         "redo==1.4.1",
         # Taskcluster pins requests 2.4.3, so we need to de the same,
         # even though we'd rather use a more up-to-date version.
-        "requests==2.4.3",
+        "requests[security]==2.4.3",
         "singledispatch==3.4.0.3",
         "six==1.9.0",
         "slugid==1.0.6",
