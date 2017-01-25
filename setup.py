@@ -41,7 +41,7 @@ setup(
         # even though we'd rather use a more up-to-date version.
         "requests[security]==2.4.3",
         "singledispatch==3.4.0.3",
-        "six==1.9.0",
+        "six==1.10.0",
         "slugid==1.0.6",
         "taskcluster>=0.0.26",
         "wsgiref==0.1.2",
